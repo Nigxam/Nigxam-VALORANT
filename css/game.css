@@ -186,7 +186,7 @@ opacity: 0;
     top: 50px;
   }
 }
-
+ 
 @media (max-width: 600px) {
   .openbtn1.active span:nth-of-type(1) {
     top: 28px;
