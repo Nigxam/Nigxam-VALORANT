@@ -741,10 +741,8 @@ background:#f3f3f3;
   /*すべてのページに適応    vct menber */
 
   .bg-team {
-    padding-top: 100px;
     background-color: #ffffff;
     text-align: center;
-    border: solid 2px;
   }
 
   .vctmenber{
@@ -779,7 +777,7 @@ background:#f3f3f3;
 
   .vctfont{
     color: #000;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
   }
   
   /*========= モーダル表示のためのCSS ===============*/
