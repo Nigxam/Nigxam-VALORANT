@@ -112,7 +112,7 @@ font-weight: bold;
 .openbtn1{
 position:fixed;
   z-index: 9999;/*ボタンを最前面に*/
-top:9px;
+top: 17px;
 right: 0px;
 cursor: pointer;
   width: 50px;
@@ -166,6 +166,8 @@ opacity: 0;
   .openbtn1 {
     width: 80px;
     height: 80px;
+    top: 10px;
+    right: -5px;
   }
 
   .openbtn1 span {
@@ -212,7 +214,7 @@ width:100%;
 background-color:#1a1a1a;
 color:#e100ff;
 text-align: center;
-padding: 20px;
+padding: 30px;
 position: fixed; /* ヘッダーを固定する */
   z-index: 9998;
 }
@@ -807,4 +809,26 @@ background:#f3f3f3;
   
 .modal-open{
   color: #ffffff;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+}
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+table{
+  text-align: center;
+  border-collapse: collapse;
+  width: 60%;
+  margin: 10px auto;
 }
